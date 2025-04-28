@@ -1,5 +1,10 @@
-HOW TO COMMIT A CODE
-git status -- If files are added or not.
-git add -- for all the  files to be added.
-git commit-m"initial commit" -- any messsage.
-git push origin master; -- to send code from local to server. 
+## How to Commit Code
+1. **Check file status:**
+   ```bash
+   git status
+## 2. **Add all files**
+git add .
+## 3. **Commit with a message**
+git commit -m "Your commit message"
+## 4. **Push to github**
+git push origin master
